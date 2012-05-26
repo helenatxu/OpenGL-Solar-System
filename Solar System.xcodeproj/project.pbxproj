@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11C7966B15705C8F007F5555 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11C7966A15705C8F007F5555 /* main.cpp */; };
+		11C7966D15705C8F007F5555 /* Solar_System.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 11C7966C15705C8F007F5555 /* Solar_System.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		11C7966415705C8F007F5555 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				11C7966D15705C8F007F5555 /* Solar_System.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		11C7966615705C8F007F5555 /* Solar System */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Solar System"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11C7966A15705C8F007F5555 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		11C7966C15705C8F007F5555 /* Solar_System.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Solar_System.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11C7966315705C8F007F5555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11C7965B15705C8F007F5555 = {
+			isa = PBXGroup;
+			children = (
+				11C7966915705C8F007F5555 /* Solar System */,
+				11C7966715705C8F007F5555 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11C7966715705C8F007F5555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11C7966615705C8F007F5555 /* Solar System */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11C7966915705C8F007F5555 /* Solar System */ = {
+			isa = PBXGroup;
+			children = (
+				11C7966A15705C8F007F5555 /* main.cpp */,
+				11C7966C15705C8F007F5555 /* Solar_System.1 */,
+			);
+			path = "Solar System";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11C7966515705C8F007F5555 /* Solar System */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11C7967015705C8F007F5555 /* Build configuration list for PBXNativeTarget "Solar System" */;
+			buildPhases = (
+				11C7966215705C8F007F5555 /* Sources */,
+				11C7966315705C8F007F5555 /* Frameworks */,
+				11C7966415705C8F007F5555 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Solar System";
+			productName = "Solar System";
+			productReference = 11C7966615705C8F007F5555 /* Solar System */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11C7965D15705C8F007F5555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 11C7966015705C8F007F5555 /* Build configuration list for PBXProject "Solar System" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11C7965B15705C8F007F5555;
+			productRefGroup = 11C7966715705C8F007F5555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11C7966515705C8F007F5555 /* Solar System */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11C7966215705C8F007F5555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C7966B15705C8F007F5555 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		11C7966E15705C8F007F5555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		11C7966F15705C8F007F5555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		11C7967115705C8F007F5555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11C7967215705C8F007F5555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11C7966015705C8F007F5555 /* Build configuration list for PBXProject "Solar System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11C7966E15705C8F007F5555 /* Debug */,
+				11C7966F15705C8F007F5555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11C7967015705C8F007F5555 /* Build configuration list for PBXNativeTarget "Solar System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11C7967115705C8F007F5555 /* Debug */,
+				11C7967215705C8F007F5555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11C7965D15705C8F007F5555 /* Project object */;
+}
