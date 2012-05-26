@@ -2,7 +2,8 @@ OpenGL-Solar-System
 ===================
 
 This is a small representation using OpenGL of a Solar System with: Sun, Mercury, Venus, Earth, Mars, a comet and some planet's satellites. Created in 2010.
-In the Downloads sention of GitHub you can find some screeshots of the Solar System running, and also a zip with the executable por MacOS.
+
+In the Downloads section of GitHub you can find some screenshots of the Solar System running, and also a zip with the executable for MacOS.
 
 
 You can increase / decrease the rotation and translation speed by pressing the ↑ and ↓ keys.
