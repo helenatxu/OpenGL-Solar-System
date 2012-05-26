@@ -14,7 +14,7 @@ To see the textures when you run the Xcode project, I you should copy the images
 
 or
 
-If you want to run the executable outside the project, I recommend to open a Terminal and go to the folder in which is the executable and the images. 
+In the "Downloads" section in GitHub, you can download the executable for Mac OS. If you want to run the executable outside the project, I recommend to open a Terminal and go to the folder in which is the executable and the images. And then you can run the executables. 
 
 
 Otherwise the textures will not appear :/ Sorry about that.
