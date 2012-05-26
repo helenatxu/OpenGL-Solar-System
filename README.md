@@ -2,6 +2,7 @@ OpenGL-Solar-System
 ===================
 
 This is a small representation using OpenGL of a Solar System with: Sun, Mercury, Venus, Earth, Mars, a comet and some planet's satellites. Created in 2010.
+In the Downloads sention of GitHub you can find some screeshots of the Solar System running, and also a zip with the executable por MacOS.
 
 
 You can increase / decrease the rotation and translation speed by pressing the ↑ and ↓ keys.
@@ -14,7 +15,7 @@ To see the textures when you run the Xcode project, I you should copy the images
 
 or
 
-In the "Downloads" section in GitHub, you can download the executable for Mac OS. If you want to run the executable outside the project, I recommend to open a Terminal and go to the folder in which is the executable and the images, and run it with the command './SolarSystem'
+In the Downloads section in GitHub, you can download the executable for Mac OS. If you want to run the executable outside the project, I recommend to open a Terminal and go to the folder in which is the executable and the images, and run it with the command './SolarSystem'
 
 
 Otherwise the textures will not appear :/ Sorry about that.
